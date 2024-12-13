@@ -1,0 +1,55 @@
+discount:
+  bread:
+    - age: 1
+      price:
+        amount: 1.00
+        currency: "EUR"
+      discount: 1
+    - age: 3
+      price:
+        amount: 1.00
+        currency: "EUR"
+      discount: 2
+    - age: 6
+      price:
+        amount: 1.00
+        currency: "EUR"
+      discount: 3
+  vegetable:
+    - maxWeight: 100
+      pricePerKg:
+        amount: 10.00
+        currency: "EUR"
+      discount: 0.05
+    - maxWeight: 500
+      pricePerKg:
+        amount: 10.00
+        currency: "EUR"
+      discount: 0.07
+    - maxWeight: 1000
+      pricePerKg:
+        amount: 10.00
+        currency: "EUR"
+      discount: 0.10
+  beer:
+    - origin: "NETHERLANDS"
+      price:
+        amount: 4.5
+        currency: "EUR"
+      packDiscount:
+        amount: 2
+        currency: "EUR"
+    - origin: "GERMANY"
+      price:
+        amount: 3.5
+        currency: "EUR"
+      packDiscount:
+        amount: 1
+        currency: "EUR"
+    - origin: "BELGIUM"
+      price:
+        amount: 5.0
+        currency: "EUR"
+      packDiscount:
+        amount: 3
+        currency: "EUR"
